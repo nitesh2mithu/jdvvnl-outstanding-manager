@@ -1,0 +1,76 @@
+# ============================================================
+# Android / Kotlin / Gradle — Professional .gitignore
+# ============================================================
+
+# ---------- Build outputs ----------
+*.apk
+*.aab
+*.ap_
+*.dex
+/build/
+/app/build/
+/captures/
+*.class
+
+# ---------- Gradle ----------
+.gradle/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+build/
+
+# ---------- Local configuration (machine-specific) ----------
+local.properties
+
+# ---------- IntelliJ / Android Studio ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ---------- Kotlin ----------
+.kotlin/
+
+# ---------- Native ----------
+.externalNativeBuild/
+.cxx/
+*.so
+*.o
+*.a
+obj/
+
+# ---------- Signing ----------
+*.jks
+*.keystore
+signing.properties
+
+# ---------- OS generated ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ---------- Python / venv (if scripts exist) ----------
+.venv/
+__pycache__/
+*.pyc
+
+# ---------- Internal dev files ----------
+INSTRUCTION.MD
+/KNO Wise Oustanding Dues(web)_Sample.xls
+
+# ---------- Misc ----------
+*.log
+*.tmp
+*.bak
+*.swp
+*~
